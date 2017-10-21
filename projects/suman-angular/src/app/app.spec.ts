@@ -14,18 +14,20 @@
 // });
 
 
-// const suman = require('suman');
-// const {Test} = suman.init(module);
-//
-//
-// Test.create('dummy', function(it){
-//
-//   it('makes soup1', t => {
-//     console.log('right on.');
-//   });
-//
-//   it('makes soup2', t => {
-//     console.log('right on.');
-//   });
-//
-// });
+const suman = require('suman');
+const {Test} = suman.init(module);
+
+
+Test.create('dummy', function(it){
+
+  it('makes soup1', t => {
+    console.log('right on.');
+    t.assert(true);
+  });
+
+  it('makes soup2', t => {
+    console.log('right on.');
+    t.assert.equal(true, false);
+  });
+
+});

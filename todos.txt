@@ -1,6 +1,8 @@
 
 //
 
+https://developers.soundcloud.com/blog/writing-your-own-karma-adapter
+
 ng set --global packageManager=yarn
 
 //
