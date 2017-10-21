@@ -1,0 +1,7 @@
+
+//
+
+ng set --global packageManager=yarn
+
+//
+
