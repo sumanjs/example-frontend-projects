@@ -4,14 +4,21 @@
 module.exports = function (config) {
   config.set({
     basePath: '',
-    frameworks: ['jasmine', '@angular/cli'],
+    frameworks: ['suman', '@angular/cli'],
     plugins: [
-      require('karma-jasmine'),
+      require('karma-suman'),
       require('karma-chrome-launcher'),
-      require('karma-jasmine-html-reporter'),
       require('karma-coverage-istanbul-reporter'),
       require('@angular/cli/plugins/karma')
     ],
+    // frameworks: ['jasmine', '@angular/cli'],
+    // plugins: [
+    //   require('karma-jasmine'),
+    //   require('karma-chrome-launcher'),
+    //   require('karma-jasmine-html-reporter'),
+    //   require('karma-coverage-istanbul-reporter'),
+    //   require('@angular/cli/plugins/karma')
+    // ],
     client:{
       clearContext: false // leave Jasmine Spec Runner output visible in browser
     },
@@ -22,7 +29,7 @@ module.exports = function (config) {
     angularCli: {
       environment: 'dev'
     },
-    reporters: ['progress', 'kjhtml'],
+    reporters: ['progress'],
     port: 9876,
     colors: true,
     logLevel: config.LOG_INFO,
