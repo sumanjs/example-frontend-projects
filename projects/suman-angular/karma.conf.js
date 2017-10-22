@@ -20,6 +20,10 @@ module.exports = function (config) {
     //   require('karma-coverage-istanbul-reporter'),
     //   require('@angular/cli/plugins/karma')
     // ],
+
+    files: [
+      // 'node_modules/suman-browser/suman.js'
+    ],
     client: {
       // captureConsole: false,
       clearContext: false // leave Jasmine Spec Runner output visible in browser
