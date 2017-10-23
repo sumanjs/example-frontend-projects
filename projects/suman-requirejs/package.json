@@ -1,0 +1,30 @@
+{
+  "name": "suman-requirejs",
+  "version": "0.0.1",
+  "description": "Suman requirejs example",
+  "main": "index.js",
+  "scripts": {
+    "test": "suman"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sumanjs/example-frontend-projects.git"
+  },
+  "keywords": [
+    "sumanjs",
+    "testing",
+    "unit",
+    "testing",
+    "front-end",
+    "testing"
+  ],
+  "author": "Olegzandr VD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sumanjs/example-frontend-projects/issues"
+  },
+  "homepage": "https://github.com/sumanjs/example-frontend-projects#readme",
+  "devDependencies": {
+    "suman": "^1.1.51230"
+  }
+}
