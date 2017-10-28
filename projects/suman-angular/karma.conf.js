@@ -35,12 +35,12 @@ module.exports = function (config) {
     angularCli: {
       environment: 'dev'
     },
-    reporters: ['progress'],
+    // reporters: ['progress'],
     port: 9876,
     colors: true,
     logLevel: config.LOG_WARN,
     autoWatch: true,
     browsers: ['Chrome'],
-    singleRun: false
+    singleRun: true
   });
 };
